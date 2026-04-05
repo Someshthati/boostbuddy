@@ -95,7 +95,7 @@ export default function BoostBuddyShop({ params }: PageProps ) {
     <div className="max-w-md mx-auto p-6 min-h-screen flex flex-col justify-center bg-white font-sans text-slate-900">
       <header className="mb-8 text-center">
         <h1 className="text-4xl font-black text-orange-500">BoostBuddy</h1>
-        <p className="text-slate-500 font-medium text-sm">Help us grow and get rewards!</p>
+        <p className="text-slate-500 font-medium text-sm">Help us grow and get rewards!!</p>
       </header>
 
       {/* STEP 1: RATING */}
