@@ -9,7 +9,11 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
 );
 
-export default function BoostBuddyShop({ params }: { params: Promise<{ id: string }>     } ) {
+type PageProps = {
+  params: Promise<{ id: string }>
+}
+
+export default function BoostBuddyShop({ params }: PageProps ) {
   // --- States ---
   const resolvedParams = use(params); 
   const storeId = resolvedParams.id;
